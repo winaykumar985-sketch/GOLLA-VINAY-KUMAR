@@ -16,7 +16,6 @@ st.markdown("""
 with st.sidebar:
     st.header("Contact Info")
     st.write("📍 **Location:** Bengaluru, Karnataka")
-    st.write("🏢 **Business:** VO Digital Services")
     st.markdown("---")
     st.write("**Target Roles:**")
     st.write("Entry-level Technical, MIS, or Business Analytics")
@@ -27,8 +26,8 @@ st.markdown('<div class="sub-header">MBA Candidate in Business Analytics | B.Com
 
 st.write(
     "I am a Bangalore-based professional with a strong foundation in computer applications and business operations. "
-    "Currently pursuing an MBA specializing in Business Analytics, I am passionate about utilizing data management tools, "
-    "process automation, and hardware-software integration to solve practical business problems. I am seeking entry-level "
+    "Currently pursuing an MBA specializing in Business Analytics, I am passionate about utilizing data management tools "
+    "and process automation to solve practical business problems. I am seeking entry-level "
     "technical and MIS roles to leverage my analytical foundation."
 )
 
@@ -46,16 +45,15 @@ with col2:
     st.markdown('<div class="section-header">🛠️ Technical Skills</div>', unsafe_allow_html=True)
     st.write("- **Data Management:** Microsoft Excel (XLOOKUP, Pivot Tables, Power Query, SUMIFS), Oracle SQL*Plus, Google Apps Script.")
     st.write("- **Programming:** Python (Fundamentals, conditional logic, loops), HTML, CSS, JavaScript.")
-    st.write("- **Hardware & Electronics:** Prototyping with ESP32, ESP32-CAM, OLED displays, RFID modules, and biometric sensors.")
+    st.write("- **Software Testing:** Manual and foundational testing methodologies.")
 
-st.markdown('<div class="section-header">🚀 Projects & Experience</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">🚀 Projects & Certifications</div>', unsafe_allow_html=True)
 
-# Project Expanders
-with st.expander("VO Digital Services (Personal Business Brand)"):
-    st.write("Operating a personal business brand focused on digital services, providing hands-on experience in business administration and practical digital solutions.")
-
-with st.expander("Offline Hardware-Integrated Attendance System"):
-    st.write("Designed an offline attendance and access control system utilizing ESP32-CAM, OLED displays, RFID modules, fingerprint sensors, and Google Sheets data logging.")
-
+# Project and Certification Expanders
 with st.expander("Educational & Interactive Web Applications"):
     st.write("Developed **PowerCall** using React and Tailwind CSS, and a 3-lane educational math runner game hosted via GitHub Pages covering curriculum for Class 1 to 10.")
+
+with st.expander("Professional Certifications & Training"):
+    st.write("- **Flipkart Supply Chain Operations Academy:** Achieved a 90% score on the digital assessment.")
+    st.write("- **Software Testing Training:** Completed comprehensive testing training at QSpiders, Hebbal.")
+    st.write("- **Financial & Business Training:** Completed Tally Prime Level 1 certification, Tata Capital Financial Literacy training, and BDE BFSI training at MITRAz Skills.")
